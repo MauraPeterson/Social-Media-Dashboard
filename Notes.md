@@ -1,5 +1,7 @@
 # Functional Requirements and Notes
 
+challenge page -- https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H
+
 Light/Dark Mode toggle -- takes system pref by default, but can override with toggle
 - What HTML markup (accessible) --  https://scottaohara.github.io/a11y_styled_form_controls/src/radio-button--switch/
 - Use fieldset, legentd, radio inputs
