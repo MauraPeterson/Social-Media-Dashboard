@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app\\js",
+    "\\app\\scss\\components",
+    "\\app\\scss\\globals",
+    "\\app\\scss\\util"
   ],
-  "SelectedNode": "\\Planning",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
