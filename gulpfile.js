@@ -43,7 +43,7 @@ function browserSyncServe(cb) {
     cb();
 }
 function browserSyncReload(cb) {
-    browsersync.reLoad();
+    browsersync.reload();
     cb();
 }
 
