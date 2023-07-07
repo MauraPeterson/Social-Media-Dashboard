@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
+    "\\app\\scss",
+    "\\app\\scss\\components",
+    "\\app\\scss\\globals",
+    "\\app\\scss\\util",
     "\\dist"
   ],
+  "SelectedNode": "\\app\\scss\\util\\breakpoints.scss",
   "PreviewInSolutionExplorer": false
 }
