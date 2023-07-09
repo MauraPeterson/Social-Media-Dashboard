@@ -7,11 +7,14 @@
     gap: rem(3) rem(8);
     margin: 0;
 
+
     label {
         font-size: rem(13);
+        font-weight: 700;
         grid-column: 1 / 2;
-        align-self:center;
+        align-self: center;
         margin-right: rem(13);
+        color: var(--toggle-text);
     }
 
     &__wrapper {
@@ -25,9 +28,14 @@
         margin: 0;
         height: rem(24);
         width: rem(21.6);
+        cursor: pointer;
 
         &:focus ~ .toggle__button {
-            border: 2px solid white;
+            border: 2px solid var(--toggle-hover);
+        }
+
+        &:hover ~ .toggle__button {
+            border: 2px solid var(--toggle-hover);
         }
     }
 
@@ -37,11 +45,10 @@
         width: rem(48);
         position: absolute;
         top: 0;
-        background: linear-gradient( 225deg, var(--toggle-bg-start) 0%, var(--toggle-bg-end) 98.02% );
+        background: var(--toggle-bg);
         border-radius: rem(12);
         overflow: hidden;
         pointer-events: none;
-        cursor: pointer;
     }
 
     &__button {
@@ -52,19 +59,13 @@
         width: rem(18);
         height: rem(18);
         border-radius: 50%;
-        background-color: var(--dark-bg);
+        background-color: var(--toggle);
         transition: all 150ms ease-in-out;
     }
 
     #light:checked ~ .toggle__button {
         left: calc(100% - 26px);
         right: 6px;
-    }
-
-    #system:checked ~ .toggle__button {
-        left: 50%;
-        right: auto;
-        transform: translate(-50%);
     }
 
     label {
