@@ -1,3 +1,5 @@
+
+
 :root {
     --limegreen: hsl(163, 72%, 41%);
     --brightred: hsl(356, 69%, 56%);
@@ -25,7 +27,22 @@
     --light-text2: hsl(228, 12%, 44%);
     --light-card-hover: hsl(228, 33%, 91%);
     --toggle-hover: black;
-    //Default to light
+}
+
+
+body.dark {
+    --background: var(--dark-bg);
+    --text-color: var(--dark-text1);
+    --text-color2: var(--dark-text2);
+    --card-bg: var(--dark-card);
+    --card-hover: var(--dark-card-hover);
+    --toggle-text: var(--dark-text1);
+    --toggle-bg: linear-gradient( 225deg, var(--toggle-bg-start-dark) 0%, var(--toggle-bg-end-dark) 98.02% );
+    --toggle: var(--toggle-dark);
+    --toggle-hover: white;
+}
+
+body.light {
     --background: var(--light-bg);
     --text-color: var(--light-text1);
     --text-color2: var(--light-text2);
@@ -36,16 +53,9 @@
     --toggle: var(--toggle-light);
     --toggle-hover: black;
 }
-@media (prefers-color-scheme: dark){
-    :root {
-        --background: var(--dark-bg);
-        --text-color: var(--dark-text1);
-        --text-color2: var(--dark-text2);
-        --card-bg: var(--dark-card);
-        --card-hover: var(--dark-card-hover);
-        --toggle-text: var(--dark-text1);
-        --toggle-bg: linear-gradient( 225deg, var(--toggle-bg-start-dark) 0%, var(--toggle-bg-end-dark) 98.02% );
-        --toggle: var(--toggle-dark);
-        --toggle-hover: white;
-    }
-}
+
+
+
+
+
+
