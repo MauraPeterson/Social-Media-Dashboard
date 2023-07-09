@@ -6,7 +6,10 @@
     "\\app\\scss\\components",
     "\\app\\scss\\globals",
     "\\app\\scss\\util",
-    "\\dist"
+    "\\dist",
+    "\\images",
+    "\\Planning"
   ],
+  "SelectedNode": "\\app\\scss\\globals\\typography.scss",
   "PreviewInSolutionExplorer": false
 }
