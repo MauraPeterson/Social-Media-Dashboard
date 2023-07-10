@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\app",
+    "\\app\\scss",
+    "\\app\\scss\\components",
+    "\\app\\scss\\globals",
+    "\\app\\scss\\util",
+    "\\dist",
+    "\\images",
+    "\\Planning"
   ],
-  "SelectedNode": "\\Planning",
+  "SelectedNode": "\\app\\scss\\globals\\boilerplate.scss",
   "PreviewInSolutionExplorer": false
 }
