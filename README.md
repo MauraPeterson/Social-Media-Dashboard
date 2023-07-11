@@ -1,5 +1,9 @@
 # Completed Using https://youtu.be/krfUjg0S2uI
 
+# Run with comand "gulp" 
+  I had to set my execution policy to remote signed to run it on windows using "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned" in powershell(run as administrator)
+
+
 # Frontend Mentor - Social media dashboard with theme switcher
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
